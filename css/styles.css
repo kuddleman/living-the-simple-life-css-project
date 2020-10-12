@@ -9,6 +9,19 @@ body {
 /* ================
     Typography
    ================ */
+ a {
+   color: #1792d2;
+ }  
+
+ a:hover,
+ a:focus {
+   color: #143774;
+ }
+
+strong {
+  font-weight: 700;
+}   
+
 h1, h2, h3 {
   font-family: 'Lora', sans-serif;
   font-weight: 400;
@@ -40,6 +53,13 @@ h1 {
   text-decoration: none;
   font-weight: 700;
 }
+
+.article-read-more:hover,
+.article-read-more:focus {
+  color: #143774;
+  text-decoration: underline;
+}
+
 /* ================
     Layout
    ================ */
